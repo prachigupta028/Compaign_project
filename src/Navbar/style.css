@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(9, 9, 10);
+    box-sizing: border-box;
+    
+}
+.sideNavbar{
+      width: 300px;
+      height: 102vh;
+      background-color: rgb(41, 40, 40);
+      color: white;
+      text-align: center;
+      margin-top: -2vh;
+
+}
+@media screen and (max-width: 800px){
+    .sideNavbar{
+        width:700px;
+    }
+}
+.btn{
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    padding:5px 20px;
+    width: 80%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    border: none;
+}
+.listItem{
+    background-color: grey;
+    color: white;
+}
+.btns{
+    color: white;
+    background: none;
+    border: none;
+    transform: scale(1.8);
+}

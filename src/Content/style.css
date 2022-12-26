@@ -1,0 +1,153 @@
+.topNavbar{
+    width: 83vw;
+    height: 100vh;
+    float: right;
+   
+    background-color: rgb(19, 19, 19);
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.topNavbar h1{
+    color: white;
+}
+.hr{
+    background-color: rgb(75, 80, 80);
+    width: 90%;
+    height: 2px;
+    border: none;
+}
+.news{
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(194, 141, 194);
+    height: 40px;
+    width: 200px;
+    font-size: 15px;
+    margin-top: 3vh;
+    cursor: pointer;
+}
+.topNavbar input{
+    height: 40px;
+    width: 350px;
+    background-color:rgb(64, 63, 63) ;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 3vh;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    color: grey;
+    width: 90%;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgb(37, 30, 30);
+    margin-left: 5%;
+    cursor: move;
+}
+@media screen and (max-width: 800px){
+    .container{
+        width:30%;
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+       background-color: rgb(48, 45, 45);
+        padding: 10px;
+        float: right;
+        margin-right: 4vw;
+    }
+}
+@media screen and (max-width: 800px){
+    .container{
+        width:80%;
+     height: 100px;
+    }
+}
+.container:hover{
+    background-color: rgb(80, 80, 239);
+}
+.container h2{
+    color: rgb(238, 222, 222);
+    font-size: 20px;
+}
+.containerDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.container button{
+    width: 5vw;
+    height: 3vh;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color:rgb(37, 30, 30) ;
+    margin-top: 2.5vh;
+    margin-left: 2vw;
+
+}
+@media screen and (max-width: 1200px){
+    .container button{
+        width:7vw;
+    }
+}
+@media screen and (max-width: 900px){
+    .container button{
+        width:9vw;
+    }
+}
+.sending{
+    color: rgb(159, 218, 159);
+    border: 2px solid rgb(171, 226, 171);
+    
+}
+.sent{
+    color:rgb(227, 164, 227);
+    border: 2px solid rgb(236, 168, 236);
+}
+.draft{
+    color:yellow;
+    border: 2px solid yellow;
+}
+.error{
+    color:red;
+    border: 2px solid red;
+}
+.stopped{
+    color:rgb(241, 159, 5);
+    border: 2px solid orange;
+}
+.evaluate{
+    color:aqua;
+    border: 2px solid aqua;
+}
+.list:hover{
+    background-color: rgb(71, 69, 69);
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+}
+.list{
+    transition: 1s;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.drop{
+    font-weight: bold;
+    transform: scale(0.8);
+}
+.btnsCheck{
+    transform: scale(1.2);
+    border: none;
+    background:none;
+    color: white;
+}
